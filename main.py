@@ -3,9 +3,10 @@ import base64
 
 st.title("Happy Birthday Thushu :partying_face::birthday::gift::champagne::smile: !!!")
 #st.write("Here's a little something for you:")
-st.write("I love you more every day.")
-st.write("I'm grateful for every moment we share.") 
-st.write("May this day be filled with as much love and joy as you bring into our lives.:smile:")
+col1,col2,col3=st.columns([1, 1, 1])
+col1.write("I love you more every day.")
+col2.write("I'm grateful for every moment we share.") 
+col3.write("May this day be filled with as much love and joy as you bring into our lives.:smile:")
 st.write("Happy Birthday, My Beautiful Wife.!!! :partying_face:")
 col1, col2 ,col3, col4, col5 = st.columns([3, 4, 5,4,3])
 col1.image('gif1.gif') # This is the same as the above line, but I have the GIF saved in the same directory as the script.
