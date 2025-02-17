@@ -8,7 +8,7 @@ col1.write("I love you more every day.")
 col2.write("I'm grateful for every moment we share.") 
 col3.write("May this day be filled with as much love and joy as you bring into our lives.:smile:")
 
-col1,col2,col3=st.columns([.1, 2, .1])
+col1,col2,col3=st.columns([.05, 2, .05])
 #col1.write("=================:smile:")
 col2.header("Happy Birthday, My Beautiful Wife.!!! :partying_face:")
 #col3.write(":smile:=================")
