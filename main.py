@@ -7,7 +7,11 @@ col1,col2,col3=st.columns([1, 1, 1])
 col1.write("I love you more every day.")
 col2.write("I'm grateful for every moment we share.") 
 col3.write("May this day be filled with as much love and joy as you bring into our lives.:smile:")
-st.write("Happy Birthday, My Beautiful Wife.!!! :partying_face:")
+
+col1,col2,col3=st.columns([1, 2, 1])
+col1.write(":smile:")
+col2.write("Happy Birthday, My Beautiful Wife.!!! :partying_face:")
+col3.write(":smile:")
 col1, col2 ,col3, col4, col5 = st.columns([3, 4, 5,4,3])
 col1.image('gif1.gif') # This is the same as the above line, but I have the GIF saved in the same directory as the script.
 col2.image('1.jpeg')
